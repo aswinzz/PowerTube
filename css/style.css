@@ -1,0 +1,277 @@
+body {
+    font-family: "Segoue", sans-serif;
+    line-height: 1.6em;
+    color: #666;
+    background: #e1e1e1 url('http://wallpapercave.com/wp/PN2tnfE.jpg');
+    font-size: 14px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+#container {
+    width: 1000px;
+    background: #fff;
+    margin: auto;
+}
+
+.clearfix {
+    clear:both;
+}
+
+header {
+    padding: 30px 20px;
+    background: #f4f4f4;
+}
+
+header h1 {
+    color: black;
+    margin-bottom: 5px;
+}
+
+header span {
+    color: #dd2826;
+}
+
+section {
+    padding: 30px 20px 20px 20px;
+}
+
+footer {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#search-form {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.fieldcontainer {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.search-field {
+    moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 45%;
+    padding: 11px 7px;
+    padding-right: 43px;
+    background: #fff;
+    color: #ccc;
+    border: 1px solid #c8c8c8;
+    font-size: 1.6em;
+    border-bottom-color: #d2e2e7;
+    moz-border-radius: 1px;
+    webkit-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+    -wbekit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+}
+
+#search-btn {
+    position: absolute;
+    right: 304px;
+    top: 5px;
+    height: 32px;
+    width: 32px;
+    border: 0;
+    cursor: pointer;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0.65;
+    background: transparent url('http://timivey.com/external/codepen/youtube-search-engine/images/search.png') top left no-repeat; 
+}
+
+#search-btn:hover {
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+
+#results li {
+    padding: 0 0;
+    border-bottom: 1px dotted #ccc;
+    list-style: none;
+    overflow: auto;
+}
+
+.list-left {
+    float: left;
+    width: 20%;
+}
+.list-left img {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+.list-right {
+    float: right;
+    width: 78%;
+}
+.list-right h3 {
+    margin: 0;
+}
+.list-right p {
+    margin: 0;
+}
+
+.cTitle {
+    color: #dd2826;
+}
+
+.button-container {
+    margin-top: 25px;
+    
+}
+
+.paging-button {
+    background: #f4f4f4;
+    padding: 0 13px;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    color: #333;
+    margin: 10px;
+    cursor: pointer;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+#container {
+    width: 1000px;
+    background: #fff;
+    margin: auto;
+}
+
+.clearfix {
+    clear:both;
+}
+
+header {
+    padding: 30px 20px;
+    background: #f4f4f4;
+}
+
+header h1 {
+    color: black;
+    margin-bottom: 5px;
+}
+
+header span {
+    color: #dd2826;
+}
+
+section {
+    padding: 30px 20px 20px 20px;
+}
+
+footer {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#search-form {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.fieldcontainer {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.search-field {
+    moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 45%;
+    padding: 11px 7px;
+    padding-right: 43px;
+    background: #fff;
+    color: #ccc;
+    border: 1px solid #c8c8c8;
+    font-size: 1.6em;
+    border-bottom-color: #d2e2e7;
+    moz-border-radius: 1px;
+    webkit-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+    -wbekit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+}
+
+#search-btn {
+    position: absolute;
+    right: 304px;
+    top: 5px;
+    height: 32px;
+    width: 32px;
+    border: 0;
+    cursor: pointer;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0.65;
+    background: transparent url('http://timivey.com/external/codepen/youtube-search-engine/images/search.png') top left no-repeat; 
+}
+
+#search-btn:hover {
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+
+#results li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #ccc;
+    list-style: none;
+    overflow: auto;
+}
+.list-left {
+    float: left;
+    width: 20%;
+}
+.list-left img {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+.list-right {
+    float: right;
+    width: 78%;
+}
+.list-right h3 {
+    margin: 0;
+}
+.list-right p {
+    margin: 0;
+}
+
+.cTitle {
+    color: #dd2826;
+}
+
+.button-container {
+    margin-top: 25px;
+    
+}
+
+.paging-button {
+    background: #f4f4f4;
+    padding: 0 13px;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    color: #333;
+    margin: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>PowerTube</title>
+  <link rel="shortcut icon" type="image/png" href="pt.png"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='http://fancyapps.com/fancybox/source/jquery.fancybox.css?v=2.1.5'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-1.12.3.min.js">
+    </script>
+    <script src="js/script.js">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">PowerTube</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="https://github.com/aswinzz">MyGithub</a></li>
+      <li><a href="https://github.com/aswinzz/MyTube">Repo</a></li>
+      <li><a href="http://aswinzz.tech">MyProfile</a></li>
+      <li><a href="http://aswinzz.tech/MyTube">ChannelSearch</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div id="container">
+    <header>
+        <h1>Power<span>Tube</span></h1>
+        <p>Redefined Youtube<br>
+         </p>
+    </header>
+    <section>
+     
+        <form id="search-form" name="search-form" onsubmit="return search()">
+            <div class="fieldcontainer">
+                <input type="search" id="query" class="search-field" placeholder="Search YouTube">
+                <input type="submit" name="search-btn" id="search-btn" value="">
+            </div>
+        </form>
+        
+        <ul id="results"></ul>
+        <div id="buttons"></div>
+    </section>
+    <footer>Copyright, &copy;AVB 2017</footer>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js'></script>
+
+</body>
+</html>
